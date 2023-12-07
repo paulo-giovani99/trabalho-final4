@@ -1,0 +1,267 @@
+.gallery-items img {
+  margin: 20px;
+}
+
+.jogos1 {
+  margin: 20px;
+}
+.button {
+  text-align: center;
+}
+#filme1,
+#filme2,
+#filme3 {
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
+  border-style: solid 20px;
+  animation: piscapisca 3s linear infinite;
+  box-shadow: 0px 1.5px 20px black;
+  border-radius: 20px;
+  border-color: #42a0ed;
+}
+.filmes {
+  text-align: center;
+  display: inline-block;
+}
+
+#jogos {
+  display: inline-block;
+}
+h1 {
+  text-align: center;
+  color: #267cc1;
+  font-family: minhafonte;
+  background-color: #141414;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: #141414;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+li {
+  display: inline;
+}
+.header {
+  background-color: #141414;
+  text-align: center;
+  padding: 20px;
+}
+/* cor do header*/
+.header {
+  background-color: #141414;
+  padding: 20px 10px;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: #141414;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+/*Cor de fundo*/
+/* Change the background color on mouse-over */
+.header .active:hover {
+  background-color: #ffffff;
+  color: #141414;
+}
+
+/* Style the active/current link*/
+.header a.active {
+  color: #141414;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+
+.header a .logo {
+  float: none;
+  display: block;
+  text-align: left;
+}
+.header-right {
+  float: none;
+  height: 10px;
+}
+
+p {
+  color: #141414;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  color: #42a0ed;
+  text-align: center;
+}
+body {
+  background-color: #ffffff;
+  text-align: center;
+  min-height: 100vh;
+}
+.header {
+  padding-right: 0;
+  padding-bottom: 2rem;
+  display: flex;
+}
+.header img {
+  display: block;
+  margin: 1.25rem 0 8 auto;
+  max-width: 100%;
+  border-radius: 20px;
+}
+.gallery-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+@media screen and (max-width: 768px) {
+  .gallery-container {
+    width: 100%;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .respon1 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .header {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+  }
+  .header-right {
+    display: inline-block;
+  }
+}
+h4 {
+  color: #ffffff;
+}
+@font-face {
+  font-family: minhafonte;
+  src: url("AVENGEANCE\ HEROIC\ AVENGER\ AT.otf") format("truetype");
+}
+swiper-container {
+}
+
+swiper-slide {
+  text-align: center;
+  font-size: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-slide img {
+  display: block;
+  width: 600;
+  height: 400;
+  object-fit: cover;
+}
+
+.swiper-v {
+  background: #eee;
+}
+.button a {
+  color: #ffffff;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #42a0ed;
+  display: block;
+  position: relative;
+  padding: 10px 20px;
+}
+button {
+  background-color: #42a0ed;
+  color: #ffffff;
+  height: 30px;
+  width: 50px;
+}
+@media screen and (max-width: 768px) {
+  .respon1 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .header {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+  }
+  .header-right {
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 500px) {
+  .respon1 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .header {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+  }
+  .header-right {
+    display: block;
+  }
+  .header img {
+    display: block;
+    margin: 1.25rem 0 8 auto;
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+  }
+}
